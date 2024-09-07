@@ -1,3 +1,6 @@
+//Divyansh 
+//23070123048
+// AIM: to learn constructor inside the class
 #include<iostream>
 using namespace std;
 
@@ -25,3 +28,10 @@ int main()
 {
     date today;
 }
+/* output:-
+Enter date: 7
+Enter month: 09
+Enter  Year: 2024
+Today's Date is:
+7/9/2024
+*/
