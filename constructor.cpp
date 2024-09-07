@@ -1,3 +1,6 @@
+//Divyansh Rastogi
+//23070123048
+//AIM - to call the constructor
 #include <iostream>
 using namespace std;
 
@@ -22,3 +25,7 @@ int main()
     date();
     return 0;
 }
+
+/* output:-
+constructor called
+*/
