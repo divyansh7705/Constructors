@@ -68,3 +68,38 @@ public:
 
 5. **Program End:**
    - The program terminates after displaying the date.
+
+Sure! Here’s a simplified algorithm for your README file without the usage section:
+
+---
+
+# README for Student Class
+
+## Overview
+The `Student` class demonstrates object creation and destruction in C++. It tracks the number of active instances of the class.
+
+## Algorithm for distructor
+
+1. **Initialization**
+   - Include necessary libraries: `#include <iostream>`
+   - Use the standard namespace.
+
+2. **Global Variable**
+   - Declare a global integer variable `count`, initialized to `0`, to track the number of `Student` objects created.
+
+3. **Define the Student Class**
+   - **Constructor**
+     - Increment the `count` variable upon the creation of a `Student` object.
+     - Print the current number of objects created.
+   - **Destructor**
+     - Decrement the `count` variable upon the destruction of a `Student` object.
+     - Print the number of objects destroyed.
+
+4. **Main Function**
+   - Create instances of the `Student` class:
+     - Instantiate objects `aa`, `bb`, and `cc`.
+   - Use a nested block to create an additional `Student` object `dd`.
+   - Destructors will be called automatically when objects go out of scope.
+
+5. **Program Termination**
+   - Upon the end of the `main` function, destructors for remaining objects (`aa`, `bb`, `cc`) will be invoked.
