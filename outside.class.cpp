@@ -1,3 +1,7 @@
+// divyansh rastogi
+//23070123048
+// construction outside the class
+
 #include <iostream>
 #include <cstring>  
 
@@ -41,3 +45,9 @@ int main() {
     s1.display();
     return 0;
 }
+/*
+Enter your PRN: 23070123048
+Enter your name: divansh
+Enter your fees: 400000
+PRN: 23070123048      Name: divyansh      Fee: 400000
+    */
