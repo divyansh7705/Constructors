@@ -73,11 +73,6 @@ Sure! Here’s a simplified algorithm for your README file without the usage sec
 
 ---
 
-# README for Student Class
-
-## Overview
-The `Student` class demonstrates object creation and destruction in C++. It tracks the number of active instances of the class.
-
 ## Algorithm for distructor
 
 1. **Initialization**
