@@ -1,3 +1,7 @@
+// Divyansh Rastogi
+//23070123048
+// parameterized
+
 #include <iostream>
 using namespace std;
 
@@ -19,3 +23,7 @@ int main() {
     
     return 0;
 }
+/* output
+a =20
+b =30
+*/
